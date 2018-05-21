@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DevlomiSeekbar">
+
+        <attr name="seekColor" format="color" />
+
+        <attr name="thumbColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RelativeLayoutWithBackgroundTint">
+        <attr name="bgTintColor" format="color" />
+    </declare-styleable>
+</resources>

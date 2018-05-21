@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e1e1"
+    tools:context=".MainActivity">
+
+
+    <com.devlomi.customlayouts.ProgressBarWithCancel
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.devlomi.customlayouts.DevlomiSeekbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        app:seekColor="#e53935"
+        app:thumbColor="#e53935" />
+
+    <com.devlomi.customlayouts.RelativeLayoutWithBackgroundTint
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_message"
+        app:bgTintColor="#737272" />
+
+</RelativeLayout>
